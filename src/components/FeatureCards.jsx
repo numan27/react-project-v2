@@ -32,7 +32,7 @@ const FeatureCards = () => {
                             <img className='' src={items.icon} alt="" />
                         </span>
                         <h3 className='my-3 fw-bold fs-4'>{items.title}</h3>
-                        <p className='section_desc'>{items.desc}</p>
+                        <p className='section_desc_card'>{items.desc}</p>
                     </div>
                 )}
 
