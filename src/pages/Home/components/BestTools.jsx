@@ -1,5 +1,5 @@
 import React from 'react'
-import IMAGES from "../assets/index"
+import IMAGES from "../../../assets/index"
 
 const BestTools = () => {
     return (

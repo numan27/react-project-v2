@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import IMAGES from '../assets'
+import IMAGES from '../../../assets'
 import { FaStar } from "react-icons/fa";
 // import SlickSlider from './SlickSlider';
 

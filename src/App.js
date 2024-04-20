@@ -1,29 +1,21 @@
-import { Container } from "react-bootstrap"
-import FeatureCards from "./components/FeatureCards";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import AnimeSection from "./components/AnimeSection";
-import BestTools from "./components/BestTools";
-import AnimeSection2 from "./components/AnimeSection2";
-import Stats from "./components/Stats";
-import SliderSection from "./components/SliderSection";
-import SeparatorSection from "./components/SeparatorSection";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <Container>
-        <FeatureCards />
-        <AnimeSection />
-        <BestTools />
-        <AnimeSection2 />
-      </Container>
-      <Stats />
-      <SliderSection />
-      <SeparatorSection />
-
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

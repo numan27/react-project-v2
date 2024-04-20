@@ -1,5 +1,5 @@
 import React from 'react'
-import IMAGES from "../assets/index"
+import IMAGES from "../../../assets/index"
 import { Col, Row } from 'react-bootstrap'
 
 const FeatureCards = () => {

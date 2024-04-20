@@ -2,7 +2,7 @@
 import React from 'react'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Row, Col } from "react-bootstrap"
-import IMAGES from '../assets'
+import IMAGES from '../../../assets'
 
 function AnimeSection() {
     return (
@@ -14,7 +14,7 @@ function AnimeSection() {
 
                 <Col lg={6} className=''>
                     <div className='px-xl-5 px-2'>
-                        <h2 className='mb-xl-5 mb-4 fw-bolder section_heading'>Animate Text in ablink Automatic and Immediate</h2>
+                        <h2 className='mb-xl-5 mb-4 fw-bolder section_heading'>Animation Section of About Page</h2>
                         <p className='my-xl-5 my-4 pe-xl-5 section_desc'>The technology our AI assure a great writing, without waiting, without creative block, instant content only</p>
 
                         <div className='mb-5'>
