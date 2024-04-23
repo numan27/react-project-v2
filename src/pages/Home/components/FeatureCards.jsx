@@ -27,7 +27,7 @@ const FeatureCards = () => {
             <div className='card_wrapper mt-sm-5 my-3 pt-sm-5 py-4'>
 
                 {FeatureCards.map((items) =>
-                    <div className='feature_item bg-secondary rounded-4 d-flex flex-column align-items-start'>
+                    <div className='feature_item bg-secondary rounded-4 d-flex flex-column align-items-start p-5'>
                         <span className='bg-black p-3 rounded-circle d-flex align-items-center justify-content-center'>
                             <img className='' src={items.icon} alt="" />
                         </span>
@@ -35,8 +35,6 @@ const FeatureCards = () => {
                         <p className='section_desc_card'>{items.desc}</p>
                     </div>
                 )}
-
-
             </div>
         </div>
     )

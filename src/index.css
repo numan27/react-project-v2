@@ -1,5 +1,8 @@
-/* Layout & Generic */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Layout & Generic */
 p,
 h5,
 h6 {
@@ -124,7 +127,7 @@ a {
 
 .feature_item {
     background: linear-gradient(to right, #ece3f3, #d2dbf2);
-    padding: 38px 90px 50px 32px;
+    /* padding: 38px 90px 50px 32px; */
 }
 
 .card_wrapper {
