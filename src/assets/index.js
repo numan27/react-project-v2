@@ -20,7 +20,12 @@ import best10 from "./bestTool/best_10.png"
 import best11 from "./bestTool/best_11.png"
 import best12 from "./bestTool/best_12.png"
 import best13 from "./bestTool/best_13.png"
-import client from "./client.jpg";
+import client from "./client.jpg"
+import client2 from "./client-2.jpg"
+import client3 from "./client-3.jpg"
+import client4 from "./client-4.jpg"
+import client5 from "./client-5.jpg"
+import client6 from "./client-6.jpeg";
 
 const IMAGES = {
     LOGO: logo,
@@ -46,6 +51,11 @@ const IMAGES = {
     BEST_IMG_12: best12,
     BEST_IMG_13: best13,
     CLIENT: client,
+    CLIENT_2: client2,
+    CLIENT_3: client3,
+    CLIENT_4: client4,
+    CLIENT_5: client5,
+    CLIENT_6: client6,
 }
 
 export default IMAGES
